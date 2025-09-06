@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 This project predicts customer churn using machine learning.  
-We trained and tuned an **XGBoost classifier** with SMOTE oversampling for handling class imbalance.  
+We trained and tuned an **XGBoost clafvessifier** with SMOTE oversampling for handling class imbalance.  
 Model explainability was added using **SHAP (SHapley Additive exPlanations)** to interpret feature importance and decision contributions.
 
 ---
@@ -39,3 +39,8 @@ The dataset contains customer information with churn labels.
    ```bash
    git clone https://github.com/abhinav428/customer_churn_prediction.git
    cd customer_churn_prediction
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run the notebook:
+   Open the Jupyter/Colab notebook and execute cells step by step.
